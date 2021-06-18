@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option go_package = "lets-learn-golang-grpc/chapter-01/courseinfo/pb";
+
+package pb;
+
+service CourseInfo {
+    rpc addCourse(Course) returns (CourseID) {}
+    rpc getCourse(CourseID) returns (Course) {}
+}
+
+message Course {
+    string id = 1;
+    string name = 2;
+    string title = 3;
+    int32 credit = 4;
+    string instructor = 5;
+}
+
+message CourseID {
+    string value = 1;
+}
