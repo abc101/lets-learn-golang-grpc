@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "lets-learn-golang-grpc/chapter-00/helloworld/pb";
+
+package pb;
+
+// The service definition
+service HelloWorld {
+    // Sends the SayHello message
+    rpc SayHello (HelloRequest) returns (HelloResponse) {}
+}
+
+// The request message containing a name(Client-side)
+message HelloRequest {
+    string name = 1;
+}
+
+// The response message containing a message(Server-side)
+message HelloResponse {
+    string message = 1;
+}
