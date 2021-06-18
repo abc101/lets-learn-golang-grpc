@@ -12,4 +12,4 @@ Learning Activity Repository: Let's learn gRPC with Golang
 > go get -u google.golang.org/grpc/cmd/protoc-gen-go-grpc
 ```
 ### Chapters
-[Chapter-00](https://github.com/abc101/lets-learn-golang-grpc/tree/main/chapter-00/helloworld): Hello World
+[Chapter-00: Hello World](https://github.com/abc101/lets-learn-golang-grpc/tree/main/chapter-00/helloworld)
