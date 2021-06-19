@@ -13,4 +13,3 @@ Learning Activity Repository: Let's learn gRPC with Golang
 ```
 ### Chapters
 - Chapter-00: [Hello World](https://github.com/abc101/lets-learn-golang-grpc/tree/main/chapter-00/helloworld)
-- Chapter-01: [Course Information](https://github.com/abc101/lets-learn-golang-grpc/tree/main/chapter-01/courseinfo)
