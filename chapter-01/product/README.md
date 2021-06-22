@@ -2,13 +2,6 @@
 ## product
 A simple RPC and a sever-to-client stream RPC
 
-### Extra package
-```bash
-> go get -u github.com/golang/protobuf/ptypes/wrappers
-> go get -u google.golang.org/grpc/codes
-> go get -u google.golang.org/grpc/status
-```
-
 ### Compile the helloworld.proto
 ```bash
 > protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative pb/product.proto
