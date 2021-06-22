@@ -1,12 +1,12 @@
 # Chapter 01
 ## product
-A Simple RPC and a sever-to-client stream
+A Simple RPC and a sever-to-client stream RPC
 
 ### Extra package
 ```bash
 > go get -u github.com/golang/protobuf/ptypes/wrappers
 > go get -u google.golang.org/grpc/codes
-> go get -u	google.golang.org/grpc/status
+> go get -u google.golang.org/grpc/status
 ```
 
 ### Compile the helloworld.proto
