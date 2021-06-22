@@ -93,9 +93,9 @@ var exampleData = []byte(`[
             "value": 1
         },
         "name": "Harry Potter 1st",
-        "Description": "Philosopher's Stone",
-        "Year": 1997,
-        "Price": 13.39
+        "description": "Philosopher's Stone",
+        "year": 1997,
+        "price": 13.39
     },
     {
         "id": {
@@ -110,41 +110,41 @@ var exampleData = []byte(`[
         "id": {
             "value": 3
         },
-        "Name": "Harry Potter 3rd",
-        "Description": "Prisoner of Azkaban",
-        "Year": 1999,
-        "Price": 12.79
+        "name": "Harry Potter 3rd",
+        "description": "Prisoner of Azkaban",
+        "year": 1999,
+        "price": 12.79
     },
     {"id": {
         "value": 4
         },
-        "Name": "Harry Potter 4th",
-        "Description": "Goblet of Fire",
-        "Year": 2000,
-        "Price": 15.49
+        "name": "Harry Potter 4th",
+        "description": "Goblet of Fire",
+        "year": 2000,
+        "price": 15.49
     },
     {"id": {
         "value": 5
         },
-        "Name": "Harry Potter 5th",
-        "Description": "Order of the Phoenix",
-        "Year": 2003,
-        "Price": 13.79
+        "name": "Harry Potter 5th",
+        "description": "Order of the Phoenix",
+        "year": 2003,
+        "price": 13.79
     },
     {"id": {
         "value": 6
         },
-        "Name": "Harry Potter 6th",
-        "Description": "Half-Blood Prince",
-        "Year": 2005,
-        "Price": 14.29
+        "name": "Harry Potter 6th",
+        "description": "Half-Blood Prince",
+        "year": 2005,
+        "price": 14.29
     },
     {"id": {
         "value": 7
         },
-        "Name": "Harry Potter 7th",
-        "Description": "Deathly Hallows",
-        "Year": 2007,
-        "Price": 15.99
+        "name": "Harry Potter 7th",
+        "description": "Deathly Hallows",
+        "year": 2007,
+        "price": 15.99
     }
 ]`)
