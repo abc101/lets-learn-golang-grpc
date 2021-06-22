@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option go_package = "lets-learn-golang-grpc/chapter-01/product/pb";
+
+package pb;
+
+// Interface exported by server
+service ProductInfo {
+    // A simple RPC
+    rpc GetProduct(ProductId) returns (Product) {}
+
+    // A server-to-client streaming RPC
+    rpc ListProductsByYearRange(YearRange) returns (stream Product) {}
+
+}
+
+message ProductId {
+    int32 value = 1;
+}
+
+message Product {
+    ProductId id = 1;
+    string name = 2;
+    string description = 3;
+    int32 year = 4;
+    float price = 5;
+}
+
+message YearRange {
+    int32 start = 1;
+    int32 end = 2;
+}

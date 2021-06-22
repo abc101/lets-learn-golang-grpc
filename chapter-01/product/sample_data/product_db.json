@@ -1,0 +1,62 @@
+[
+    {
+        "id": {
+            "value": 1
+        },
+        "name": "Harry Potter 1st",
+        "Description": "Philosopher's Stone",
+        "Year": 1997,
+        "Price": 13.39
+    },
+    {
+        "id": {
+            "value": 2
+        },
+        "name": "Harry Potter 2nd",
+        "description": "Chamber of Secrets",
+        "year": 1998,
+        "price": 14.59
+    },
+    {
+        "id": {
+            "value": 3
+        },
+        "Name": "Harry Potter 3rd",
+        "Description": "Prisoner of Azkaban",
+        "Year": 1999,
+        "Price": 12.79
+    },
+    {"id": {
+        "value": 4
+        },
+        "Name": "Harry Potter 4th",
+        "Description": "Goblet of Fire",
+        "Year": 2000,
+        "Price": 15.49
+    },
+    {"id": {
+        "value": 5
+        },
+        "Name": "Harry Potter 5th",
+        "Description": "Order of the Phoenix",
+        "Year": 2003,
+        "Price": 13.79
+    },
+    {"id": {
+        "value": 6
+        },
+        "Name": "Harry Potter 6th",
+        "Description": "Half-Blood Prince",
+        "Year": 2005,
+        "Price": 14.29
+    },
+    {"id": {
+        "value": 7
+        },
+        "Name": "Harry Potter 7th",
+        "Description": "Deathly Hallows",
+        "Year": 2007,
+        "Price": 15.99
+    }
+]
+
