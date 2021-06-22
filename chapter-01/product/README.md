@@ -1,6 +1,6 @@
 # Chapter 01
 ## product
-A Simple RPC and a sever-to-client stream RPC
+A simple RPC and a sever-to-client stream RPC
 
 ### Extra package
 ```bash
